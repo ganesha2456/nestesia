@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login Us</title>
+<link rel="stylesheet" href="../Css/Style-login - Copy.css">
+</head>
+<body>
+<div class="account-page">
+<div class="nav">
+<ul>
+<li class="hom"><a href="../Home.html">HOME</a></li>
+<li class="ats"><a href="about.html">ABOUT US</a></li>
+<li class="ats"><a href="contact.html">CONTACT US</a></li>
+<li><a href="#" id="h">ACCOUNT</a></li>
+</ul>
+</div>
+<div class="container">
+<img src="../Media/nestasia-in-f6un.jpg" width="200px" height="200px">
+<div class="row">
+<div class="form-container">
+<div class="form-btn">
+<span onclick="login()">Login</span>
+<span onclick="register()">Register</span>
+<hr id="indicator">
+</div>
+<form id="loginform">
+<input type="text" placeholder="Username">
+<input type="email" placeholder="E-mail">
+<input type="password" placeholder="Password">
+<input type="password" placeholder="Confirm Password">
+<button class="btn">Register</button>
+</form>
+<form id="regform">
+<input type="text" placeholder="Username">
+<input type="password" placeholder="Password">
+<button class="btn"><a href="../Home.html">Login</a></button><br>
+<a href="#">Forgot Password</a>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="download">
+<div class="ourapp">Download Our App</div> <br>
+Download App for Android IOS Mobile Phones. <br><br><br>
+<div class="app">
+<img src="../Media/WhatsApp Image 2023-08-04 at 20.03.07.jpeg" height="40px">
+<img src="../Media/28064070-a665-46af-8447-d77f2004f9bd.jpg" height="40px">
+</div>
+</div>
+<div class="stay">
+<div class="tou">STAY IN TOUCH </div><br>
+Sign up for exclusive offers, <br> original stories, events <br> and more. <br><br>
+<div class="contact">CONTACT US </div> <br>
+<span><img src="../Media/footer_whatsapp_icon.svg" height="18px" width="18px">+91
+9692564202 <br><br>
+<span class="email"><img src="../Media/footer_email_icon.svg" height="18px"
+width="18px">nestasia@gmail.com</span>
+</span>
+</div>
+<div class="quick">
+<div class="qu">QUICK LINKS </div><br>
+Shop All <br>
+Unique Rakhi Gifts <br>
+Sale <br>
+Gift Cards <br>
+Offers
+</div>
+<div class="help">
+<div class="he"> HELP </div><br>
+Returns <br>
+Shipping <br>
+Privacy Policy <br>
+Contact Us <br>
+FAQS
+</div>
+<hr size="1px" noshade width="1490px">
+<div class="accept">
+We Accept
+</div>
+<div class="ima">
+<img src="../Media/visa_icon.svg" width="75px" height="40px">
+<img src="../Media/master_icon.svg" width="75px" height="40px">
+<img src="../Media/rupay_icon.svg" width="75px" height="40px">
+<img src="../Media/paytm_icon.svg" width="75px" height="40px">
+</div>
+<div class="copy">
+Copyright 2023 - Nestasia Officials
+</div>
+</div>
+<script>
+var loginform=document.getElementById("loginform");
+var regform=document.getElementById("regform");
+var indicator=document.getElementById("indicator");
+function login()
+{
+regform.style.transform="translateX(0px)";
+loginform.style.transform="translateX(0px)";
+indicator.style.transform="translateX(0px)"
+}
+function register()
+{
+regform.style.transform="translateX(300px)";
+loginform.style.transform="translateX(300px)";
+indicator.style.transform="translateX(120px)"
+}
+</script>
+</body>
+</html>

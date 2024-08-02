@@ -1,0 +1,282 @@
+.account-page
+{
+padding: 50px 0;
+background: burlywood;
+}
+#h
+{
+color:rgb(114, 47, 2);
+}
+.nav
+{
+width:700px;
+height:50px;
+position:absolute;
+right:50px;
+top:10px;
+}
+.nav ul
+{
+list-style:none;
+margin:0px;
+padding:0px;
+}
+.nav ul li
+{
+display:inline-block;
+font-size:23px;
+width:150px;
+text-align:center;
+line-height:50px;
+font-weight:bold;
+}
+.nav ul li a
+{
+text-decoration:none;
+color:rgb(250, 248, 248);
+}
+.nav ul .ats
+{
+width:170px;
+}
+.nav ul .hom
+{
+width:100px;
+}
+.nav ul li a:hover
+{
+color:rgb(255, 196, 48);
+text-decoration:underline;
+}
+.form-container
+{
+background:#fff;
+width: 300px;
+height: 400px;
+position: relative;
+top: 25px;
+left: 170px;
+text-align: center;
+padding: 20px 0;
+margin: auto;
+box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.8);
+overflow: hidden;
+}
+.container img
+{
+position: absolute;
+top: 150px;
+left: 150px;
+border-radius: 100px;
+box-shadow: 5px 5px 20px black;
+}
+.form-container span
+{
+font-weight: bold;
+font-size: 20px;
+padding: 0 10px;
+color: #555;
+cursor: pointer;
+width: 100px;
+display: inline-block;
+}
+.form-btn
+{
+display: inline-block;
+}
+.form-container form
+{
+max-width: 300px;
+padding: 0 20px;
+position: absolute;
+top: 130px;
+transition: 1s;
+}
+form input
+{
+width: 100%;
+height: 40px;
+margin: 10x 0;
+padding: 0 10px;
+border: 1px solid #ccc;
+background-color: rgb(237, 236, 234);
+border-radius: 10px;
+}
+#loginform input
+{
+width: 70%;
+padding-right: 20px;
+}
+#regform input
+{
+width: 90%;
+}
+form .btn
+{
+width: 100%;
+height: 32px;
+border: none;
+cursor: pointer;
+margin: 10px 0;
+background-color: #ff523b;
+}
+form .btn:hover
+{
+background-color: #440a02;
+color: white;
+}
+#loginform .btn
+{
+width: 80%;
+background-color: #ff523b;
+}
+#loginform .btn:hover
+{
+background-color: #440a02;
+}
+#regform button a
+{
+text-decoration: none;
+color: black;
+font-size: 15px;
+}
+form .btn:focus
+{
+outline: none;
+}
+#loginform
+{
+left: -300px;
+}
+#regform
+{
+left: 0;
+}
+form a
+{
+font-size: 12px;
+}
+#indicator
+{
+width: 128px;
+border: none;
+background: #ff523b;
+height: 4px;
+margin-top: 8px;
+position: absolute;
+left: 10px;
+top: 50px;
+}
+.footer
+{
+background-color:rgb(7, 7, 63);
+border:2px solid white;
+height:400px;
+position:absolute;
+top:548px;
+width:1516px;
+}
+.accept
+{
+color:white;
+font-size:24px;
+position:absolute;
+bottom:50px;
+right:340px;
+}
+.ima
+{
+position:absolute;
+bottom:38px;
+right:20px;
+}
+.quick
+{
+color:white;
+font-size:22px;
+height:300px;
+position:absolute;
+left: 1000px;
+top:20px;
+}
+.qu
+{
+color: rgb(122, 122, 183);
+font-size:25px;
+}
+.help
+{
+color:white;
+font-size:22px;
+height:300px;
+position:absolute;
+left:1300px;
+top:20px;
+}
+hr
+{
+position:absolute;
+top:366px;
+left:10px;
+}
+.copy
+{
+color:white;
+font-size:13px;
+padding-top:380px;
+text-align:center;
+}
+.he
+{
+color: rgb(122, 122, 183);
+font-size:25px;
+}
+.ourapp
+{
+color: rgb(122, 122, 183);
+font-size:24px;
+font-weight:bold;
+}
+.download
+{
+color:white;
+font-size:20px;
+position:absolute;
+left:100px;
+top:70px;
+}
+.stay
+{
+color:white;
+font-size:21px;
+height:300px;
+position:absolute;
+left:650px;
+top:20px;
+}
+.tou
+{
+color: rgb(122, 122, 183);
+font-size:25px;
+}
+.contact
+{
+color:rgb(122, 122, 183);
+font-size:24px;
+}
+.stay span
+{
+font-size:18px;
+}
+.stay span img
+{
+position:absolute;
+right:243px;
+top: 202px;
+}
+span .email img
+{
+position:absolute;
+right:243px;
+top: 252px;
+}

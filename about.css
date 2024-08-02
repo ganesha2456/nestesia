@@ -1,0 +1,349 @@
+body
+{
+height:1000px;
+margin:0px;
+padding:0px;
+}
+#h a
+{
+color:rgb(114, 47, 2);
+}
+.nav
+{
+width:700px;
+height:50px;
+position:absolute;
+right:50px;
+top:10px;
+}
+.nav ul
+{
+list-style:none;
+margin:0px;
+padding:0px;
+}
+.nav ul li
+{
+display:inline-block;
+font-size:23px;
+width:150px;
+text-align:center;
+line-height:50px;
+font-weight:bold;
+}
+.nav ul li a
+{
+text-decoration:none;
+color:rgb(220, 199, 145);
+}
+.nav ul .ats
+{
+width:170px;
+}
+.nav ul .hom
+{
+width:100px;
+}
+.nav ul li a:hover
+{
+color:rgb(255, 196, 48);
+text-decoration:underline;
+}
+.wishlist
+{
+position:absolute;
+top:14px;
+right:90px;
+}
+.wishlist a img:hover
+{
+height:51px;
+width:51px;
+}
+.cart
+{
+position:absolute;
+top:10px;
+right:10px;
+}
+.cart a img:hover
+{
+height:51px;
+width:51px;
+}
+#hr
+{
+position:absolute;
+top:70px;
+}
+/*.container1
+{
+display:flex;
+position:absolute;
+left:1000px;
+top:140px;
+width:800px;
+}*/
+.root
+{
+width:60%;
+display:grid;
+grid-template-columns:repeat(2, 1fr);
+grid-gap:20px;
+}
+.sidebar
+{
+width:40%;
+border-radius:5px;
+background-color:#eee;
+margin-left:20px;
+padding:15px;
+text-align:center;
+}
+.head
+{
+background-color:goldenrod;
+border-radius:3px;
+height:40px;
+padding:10px;
+margin-bottom:20px;
+color:white;
+display:flex;
+align-items:center;
+}
+.foot
+{
+display:flex;
+justify-content:space-between;
+margin:20px 0px;
+padding:10px 0px;
+border-top:1px solid #333;
+}
+.imageslider
+{
+width: 35%;
+height: 60%;
+background-image: url(../Media/Bowls/DSCF8966_296f2c1c-8683-4ce9-8712-8c7a8a802c08_360x.webp);
+background-size: 100% 100%;
+box-sizing: border-box;
+box-shadow: rgba(29, 29, 28, 2) 5px 10px 20px;
+position: absolute;
+top: 87px;
+left: 20px;
+animation: changeimage 20s linear infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes changeimage
+{
+0%{
+background-image: url(../Media/Drinkware/DSC03246_360x.webp);
+}
+25%{
+background-image: url(../Media/Bowls/NSA30new337_360x.webp);
+}
+50%{
+background-image: url(../Media/Drinkware/glassteapot_62fb1401-8579-4a2d-ac2cf37257d36314_
+360x.webp);
+}
+75%{
+background-image: url(../Media/Drinkware/DSC7961_360x.webp);
+}
+100%{
+background-image: url(../Media/Bowls/IMG_28391_360x.webp);
+}
+}
+.ourproduct
+{
+position: absolute;
+top: 535px;
+left: 130px;
+font-size: 27px;
+font-weight: bold;
+}
+.story
+{
+position: absolute;
+top: 100px;
+left: 872px;
+font-size: 30px;
+font-weight: bold;
+}
+.story2
+{
+position: absolute;
+top: 150px;
+left: 599px;
+/*border: 2px solid red;*/
+width: 55%;
+font-size: 20px;
+text-align: center;
+}
+button
+{
+border-radius: 20px;
+background-color: orangered;
+position: absolute;
+top: 423px;
+left: 640px;
+font-weight: bold;
+padding: 10px 20px;
+}
+button:hover
+{
+background-color: red;
+color: white;
+}
+.leader
+{
+position: absolute;
+top: 600px;
+left: 510px;
+font-size: 30px;
+font-weight: bold;
+text-decoration: underline;
+}
+.leader1
+{
+position: absolute;
+top: 630px;
+left: 180px;
+/*border: 2px solid red;*/
+width: 75%;
+font-size: 20px;
+text-align: center;
+}
+.award
+{
+position: absolute;
+top: 760px;
+left: 480px;
+font-size: 30px;
+font-weight: bold;
+text-decoration: underline;
+}
+.award1
+{
+position: absolute;
+top: 797px;
+left: 180px;
+/*border: 2px solid red;*/
+width: 75%;
+font-size: 20px;
+text-align: center;
+}
+.footer
+{
+background-color:rgb(7, 7, 63);
+border:2px solid white;
+height:400px;
+position:absolute;
+top:900px;
+width:1516px;
+}
+.accept
+{
+color:white;
+font-size:24px;
+position:absolute;
+bottom:50px;
+right:340px;
+}
+.ima
+{
+position:absolute;
+bottom:38px;
+right:20px;
+}
+.quick
+{
+/* border:2px solid white; */
+color:white;
+font-size:22px;
+height:300px;
+position:absolute;
+left: 1000px;
+top:20px;
+}
+.qu
+{
+color: rgb(122, 122, 183);
+font-size:25px;
+}
+.help
+{
+/* border:2px solid white; */
+color:white;
+font-size:22px;
+height:300px;
+position:absolute;
+left:1300px;
+top:20px;
+}
+hr
+{
+position:absolute;
+top:366px;
+left:10px;
+}
+.copy
+{
+color:white;
+font-size:13px;
+padding-top:380px;
+text-align:center;
+}
+.he
+{
+color: rgb(122, 122, 183);
+font-size:25px;
+}
+.ourapp
+{
+color: rgb(122, 122, 183);
+font-size:24px;
+font-weight:bold;
+}
+.download
+{
+color:white;
+font-size:20px;
+position:absolute;
+left:100px;
+top:70px;
+}
+.stay
+{
+/* border:2px solid white; */
+color:white;
+font-size:21px;
+height:300px;
+position:absolute;
+left:650px;
+top:20px;
+}
+.tou
+{
+color: rgb(122, 122, 183);
+font-size:25px;
+}
+.contact
+{
+color:rgb(122, 122, 183);
+font-size:24px;
+}
+.stay span
+{
+font-size:18px;
+}
+.stay span img
+{
+position:absolute;
+right:243px;
+top: 202px;
+}
+span .email img
+{
+position:absolute;
+right:243px;
+top: 252px;
+}
